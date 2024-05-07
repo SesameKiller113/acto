@@ -100,19 +100,21 @@
 | acto/schema/anyof.py                                          |       48 |        1 |     98% |        32 |
 | acto/schema/anyof\_test.py                                    |       61 |        1 |     98% |        89 |
 | acto/schema/array.py                                          |       85 |       32 |     62% |47, 59-68, 70-79, 89-96, 104-106, 109, 116-121, 136, 142 |
-| acto/schema/array\_test.py                                    |        2 |        0 |    100% |           |
+| acto/schema/array\_test.py                                    |        0 |        0 |    100% |           |
 | acto/schema/base.py                                           |      106 |       24 |     77% |40-42, 56, 60-69, 75-84, 111, 118, 123, 128, 133, 138 |
 | acto/schema/base\_test.py                                     |       79 |        1 |     99% |        97 |
-| acto/schema/boolean.py                                        |       31 |        8 |     74% |17, 23, 29, 32-35, 48 |
+| acto/schema/boolean.py                                        |       31 |        4 |     87% |17, 34-35, 48 |
+| acto/schema/boolean\_test.py                                  |       54 |        1 |     98% |        95 |
 | acto/schema/get\_total\_number\_schemas.py                    |       47 |       36 |     23% | 19-86, 93 |
 | acto/schema/get\_total\_number\_schemas\_test.py              |        7 |        0 |    100% |           |
-| acto/schema/integer.py                                        |       38 |        7 |     82% |18, 25, 36, 44-49, 51 |
+| acto/schema/integer.py                                        |       38 |        6 |     84% |18, 25, 44-49, 51 |
+| acto/schema/integer\_test.py                                  |       54 |        1 |     98% |        97 |
 | acto/schema/number.py                                         |       37 |       14 |     62% |49, 55-57, 60, 63, 66, 69, 73-80, 83 |
-| acto/schema/object.py                                         |      141 |       44 |     69% |49, 51, 56, 71-80, 82-91, 101-116, 132-135, 138, 162, 169-174, 181-185, 202, 226 |
+| acto/schema/object.py                                         |      141 |       42 |     70% |49, 51, 56, 71-80, 82-91, 101-116, 132-135, 138, 162, 169-174, 202, 226 |
 | acto/schema/oneof.py                                          |       48 |       33 |     31% |14-22, 28, 31-33, 38-46, 49, 52, 55-57, 60, 63-64, 67-72 |
 | acto/schema/opaque.py                                         |       19 |        7 |     63% |15, 18, 21, 24, 27, 30, 33 |
 | acto/schema/schema.py                                         |       41 |        7 |     83% |23, 27, 33-36, 51 |
-| acto/schema/string.py                                         |       40 |        5 |     88% |36, 43, 50, 53, 66 |
+| acto/schema/string.py                                         |       40 |        4 |     90% |36, 43, 50, 53 |
 | acto/serialization.py                                         |       52 |       23 |     56% |16-19, 34, 36, 38, 40, 42, 45, 52-58, 65-71 |
 | acto/snapshot.py                                              |       66 |       14 |     79% |81, 96-126, 142-147 |
 | acto/system\_state/\_\_init\_\_.py                            |        0 |        0 |    100% |           |
@@ -147,7 +149,7 @@
 | acto/utils/preprocess.py                                      |       72 |       60 |     17% |17-83, 105-161, 166-200 |
 | acto/utils/process\_with\_except.py                           |        9 |        9 |      0% |      1-13 |
 | acto/utils/thread\_logger.py                                  |       15 |        3 |     80% | 9, 18, 28 |
-|                                                     **TOTAL** | **9853** | **4323** | **56%** |           |
+|                                                     **TOTAL** | **9959** | **4317** | **57%** |           |
 
 
 ## Setup coverage badge
