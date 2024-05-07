@@ -97,19 +97,22 @@
 | acto/runner/\_\_init\_\_.py                                   |        1 |        0 |    100% |           |
 | acto/runner/runner.py                                         |      294 |      263 |     11% |41-87, 106-184, 188-195, 201-237, 244-280, 287-324, 328-331, 335-376, 380-383, 394-399, 415-421, 434-589, 593-597, 602-616, 627-664 |
 | acto/schema/\_\_init\_\_.py                                   |       10 |        0 |    100% |           |
-| acto/schema/anyof.py                                          |       48 |       19 |     60% |32, 38-46, 49, 55-57, 60, 67-72 |
+| acto/schema/anyof.py                                          |       48 |        1 |     98% |        32 |
+| acto/schema/anyof\_test.py                                    |       61 |        1 |     98% |        89 |
 | acto/schema/array.py                                          |       85 |       32 |     62% |47, 59-68, 70-79, 89-96, 104-106, 109, 116-121, 136, 142 |
-| acto/schema/base.py                                           |      106 |       44 |     58% |31-42, 46, 50, 54-56, 59-71, 74-86, 89, 93-97, 111, 118, 123, 128, 133, 138, 177 |
+| acto/schema/array\_test.py                                    |        2 |        0 |    100% |           |
+| acto/schema/base.py                                           |      106 |       24 |     77% |40-42, 56, 60-69, 75-84, 111, 118, 123, 128, 133, 138 |
+| acto/schema/base\_test.py                                     |       79 |        1 |     99% |        97 |
 | acto/schema/boolean.py                                        |       31 |        8 |     74% |17, 23, 29, 32-35, 48 |
 | acto/schema/get\_total\_number\_schemas.py                    |       47 |       36 |     23% | 19-86, 93 |
 | acto/schema/get\_total\_number\_schemas\_test.py              |        7 |        0 |    100% |           |
-| acto/schema/integer.py                                        |       38 |       12 |     68% |18, 24-26, 32-33, 36, 44-49, 51, 67 |
+| acto/schema/integer.py                                        |       38 |        7 |     82% |18, 25, 36, 44-49, 51 |
 | acto/schema/number.py                                         |       37 |       14 |     62% |49, 55-57, 60, 63, 66, 69, 73-80, 83 |
-| acto/schema/object.py                                         |      141 |       42 |     70% |49, 51, 56, 71-80, 82-91, 101-116, 132-135, 138, 162, 169-174, 202, 226 |
+| acto/schema/object.py                                         |      141 |       44 |     69% |49, 51, 56, 71-80, 82-91, 101-116, 132-135, 138, 162, 169-174, 181-185, 202, 226 |
 | acto/schema/oneof.py                                          |       48 |       33 |     31% |14-22, 28, 31-33, 38-46, 49, 52, 55-57, 60, 63-64, 67-72 |
 | acto/schema/opaque.py                                         |       19 |        7 |     63% |15, 18, 21, 24, 27, 30, 33 |
 | acto/schema/schema.py                                         |       41 |        7 |     83% |23, 27, 33-36, 51 |
-| acto/schema/string.py                                         |       40 |        7 |     82% |36, 42-44, 50, 53, 75 |
+| acto/schema/string.py                                         |       40 |        5 |     88% |36, 43, 50, 53, 66 |
 | acto/serialization.py                                         |       52 |       23 |     56% |16-19, 34, 36, 38, 40, 42, 45, 52-58, 65-71 |
 | acto/snapshot.py                                              |       66 |       14 |     79% |81, 96-126, 142-147 |
 | acto/system\_state/\_\_init\_\_.py                            |        0 |        0 |    100% |           |
@@ -144,7 +147,7 @@
 | acto/utils/preprocess.py                                      |       72 |       60 |     17% |17-83, 105-161, 166-200 |
 | acto/utils/process\_with\_except.py                           |        9 |        9 |      0% |      1-13 |
 | acto/utils/thread\_logger.py                                  |       15 |        3 |     80% | 9, 18, 28 |
-|                                                     **TOTAL** | **9711** | **4364** | **55%** |           |
+|                                                     **TOTAL** | **9853** | **4323** | **56%** |           |
 
 
 ## Setup coverage badge
