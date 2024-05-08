@@ -111,7 +111,7 @@
 | acto/schema/integer\_test.py                                  |       54 |        1 |     98% |        97 |
 | acto/schema/number.py                                         |       37 |        5 |     86% |49, 56, 74-79 |
 | acto/schema/number\_test.py                                   |       50 |        1 |     98% |        77 |
-| acto/schema/object.py                                         |      141 |       32 |     77% |49, 51, 56, 71-80, 82-91, 102, 114, 132-135, 138, 162, 169-174, 202, 226 |
+| acto/schema/object.py                                         |      141 |       34 |     76% |49, 51, 56, 71-80, 82-91, 102, 114, 132-135, 138, 162, 169-174, 181-185, 202, 226 |
 | acto/schema/object\_test.py                                   |       23 |        1 |     96% |        46 |
 | acto/schema/oneof.py                                          |       48 |       16 |     67% |28, 32, 49, 52, 55-57, 60, 63-64, 67-72 |
 | acto/schema/oneof\_test.py                                    |       21 |        1 |     95% |        38 |
@@ -119,6 +119,7 @@
 | acto/schema/opaque\_test.py                                   |       16 |        1 |     94% |        23 |
 | acto/schema/schema.py                                         |       41 |        7 |     83% |23, 27, 33-36, 51 |
 | acto/schema/string.py                                         |       40 |        4 |     90% |36, 43, 50, 53 |
+| acto/schema/string\_test.py                                   |       29 |        1 |     97% |        46 |
 | acto/serialization.py                                         |       52 |       23 |     56% |16-19, 34, 36, 38, 40, 42, 45, 52-58, 65-71 |
 | acto/snapshot.py                                              |       66 |       14 |     79% |81, 96-126, 142-147 |
 | acto/system\_state/\_\_init\_\_.py                            |        0 |        0 |    100% |           |
@@ -153,7 +154,7 @@
 | acto/utils/preprocess.py                                      |       72 |       60 |     17% |17-83, 105-161, 166-200 |
 | acto/utils/process\_with\_except.py                           |        9 |        9 |      0% |      1-13 |
 | acto/utils/thread\_logger.py                                  |       15 |        3 |     80% | 9, 18, 28 |
-|                                                     **TOTAL** | **10069** | **4284** | **57%** |           |
+|                                                     **TOTAL** | **10098** | **4287** | **58%** |           |
 
 
 ## Setup coverage badge
