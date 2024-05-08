@@ -154,9 +154,10 @@
 | acto/utils/error\_handler.py                                  |       43 |       33 |     23% |15-35, 43-58, 63-82 |
 | acto/utils/k8s\_helper.py                                     |       64 |       51 |     20% |21-27, 39-45, 57-61, 73-79, 83-91, 95-102, 106-127 |
 | acto/utils/preprocess.py                                      |       72 |       60 |     17% |17-83, 105-161, 166-200 |
-| acto/utils/process\_with\_except.py                           |        9 |        9 |      0% |      1-13 |
+| acto/utils/process\_with\_except.py                           |        9 |        0 |    100% |           |
+| acto/utils/process\_with\_except\_test.py                     |       15 |        1 |     93% |        25 |
 | acto/utils/thread\_logger.py                                  |       15 |        3 |     80% | 9, 18, 28 |
-|                                                     **TOTAL** | **10146** | **4268** | **58%** |           |
+|                                                     **TOTAL** | **10161** | **4260** | **58%** |           |
 
 
 ## Setup coverage badge
