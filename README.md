@@ -82,7 +82,8 @@
 | acto/monkey\_patch/monkey\_patch.py                           |       79 |       30 |     62% |8-11, 18, 36, 39, 41, 45-56, 72-78, 90-95, 106 |
 | acto/oracle\_handle.py                                        |       24 |       13 |     46% |15-18, 26-27, 39-46, 54 |
 | acto/parse\_log/\_\_init\_\_.py                               |        1 |        0 |    100% |           |
-| acto/parse\_log/parse\_log.py                                 |       88 |       22 |     75% |79-82, 92-94, 97-99, 101-103, 108-110, 128-136 |
+| acto/parse\_log/parse\_log.py                                 |       88 |       19 |     78% |79-82, 92-94, 101-103, 108-110, 128-136 |
+| acto/parse\_log/parse\_log\_test.py                           |       20 |        1 |     95% |        25 |
 | acto/post\_process/\_\_init\_\_.py                            |        0 |        0 |    100% |           |
 | acto/post\_process/collect\_test\_result.py                   |       45 |       45 |      0% |     1-117 |
 | acto/post\_process/post\_chain\_inputs.py                     |       41 |       41 |      0% |      1-65 |
@@ -111,7 +112,7 @@
 | acto/schema/integer\_test.py                                  |       54 |        1 |     98% |        97 |
 | acto/schema/number.py                                         |       37 |        5 |     86% |49, 56, 74-79 |
 | acto/schema/number\_test.py                                   |       50 |        1 |     98% |        77 |
-| acto/schema/object.py                                         |      141 |       34 |     76% |49, 51, 56, 71-80, 82-91, 102, 114, 132-135, 138, 162, 169-174, 181-185, 202, 226 |
+| acto/schema/object.py                                         |      141 |       32 |     77% |49, 51, 56, 71-80, 82-91, 102, 114, 132-135, 138, 162, 169-174, 202, 226 |
 | acto/schema/object\_test.py                                   |       23 |        1 |     96% |        46 |
 | acto/schema/oneof.py                                          |       48 |       16 |     67% |28, 32, 49, 52, 55-57, 60, 63-64, 67-72 |
 | acto/schema/oneof\_test.py                                    |       21 |        1 |     95% |        38 |
@@ -148,13 +149,14 @@
 | acto/system\_state/storage\_class.py                          |       16 |        1 |     94% |        28 |
 | acto/trial.py                                                 |       26 |        2 |     92% |     38-39 |
 | acto/utils/\_\_init\_\_.py                                    |       13 |        1 |     92% |        11 |
-| acto/utils/acto\_timer.py                                     |       31 |       22 |     29% |10-15, 19, 22-33, 38-40, 44-47 |
+| acto/utils/acto\_timer.py                                     |       31 |        6 |     81% |30-32, 44-47 |
+| acto/utils/acto\_timer\_test.py                               |       28 |        1 |     96% |        60 |
 | acto/utils/error\_handler.py                                  |       43 |       33 |     23% |15-35, 43-58, 63-82 |
 | acto/utils/k8s\_helper.py                                     |       64 |       51 |     20% |21-27, 39-45, 57-61, 73-79, 83-91, 95-102, 106-127 |
 | acto/utils/preprocess.py                                      |       72 |       60 |     17% |17-83, 105-161, 166-200 |
 | acto/utils/process\_with\_except.py                           |        9 |        9 |      0% |      1-13 |
 | acto/utils/thread\_logger.py                                  |       15 |        3 |     80% | 9, 18, 28 |
-|                                                     **TOTAL** | **10098** | **4287** | **58%** |           |
+|                                                     **TOTAL** | **10146** | **4268** | **58%** |           |
 
 
 ## Setup coverage badge
